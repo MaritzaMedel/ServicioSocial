@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Evaluación de Empresa - Servicio Social</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="main.js" type="module"></script>
+
+        <style>
+            body {
+                background-color: #80ff80;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 class="text-center">Evaluación de Empresa - Servicio Social</h1>
+            <p class="lead">Las siguientes preguntas tienen como finalidad conocer su desempeño, con relación a la actividad de servicio social que realizó. Por favor conteste con claridad cada una de las preguntas para obtener una buena apreciación de sus respuestas.</p>
+
+            <p class="lead">Modalidad de prestación de servicio social:</p>    
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input type="radio" name="options" id="option1" autocomplete="off" value="Unidisciplina"> Unidisciplina
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="options" id="option2" autocomplete="off" value="Multidisciplina"> Multidisciplina
+                </label>
+            </div>
+            <form id="formularioEvaluacion">
+            </form>
+
+            <br>
+            <button id="enviarFormulario" class="btn btn-success btn-block fa-lg gradient-custom-2 mb-3" type="button">Enviar Evaluación</button>
+        </div>
+    </body>
+</html>
